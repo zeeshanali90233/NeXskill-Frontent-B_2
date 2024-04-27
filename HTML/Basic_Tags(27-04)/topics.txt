@@ -1,0 +1,16 @@
+Topic Studied 
+
+-> Basic Understanding of website
+-> Difference b/w website and web app
+-> VS Code Install
+-> Key Neccasities for making a website
+-> Intro of HTML
+-> File Creation In VS Code
+-> Opening and Closing Tag
+-> Heading (h1-h6)
+-> Paragraph p
+-> Nested Tagging
+-> Bold, Italic, Strong
+-> sub and sup
+-> document title
+-> br
