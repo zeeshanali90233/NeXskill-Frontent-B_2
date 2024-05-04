@@ -1,0 +1,18 @@
+tables
+-> Book Page 143
+-> Book Page 141
+
+Continued
+-> Contact Us 
+    -> Add Inputs fields to get the name, email and message from the user
+    -> Also add one dropdown with the name of "Purpose"
+        having following options
+            -> Network
+            -> Project
+            -> Mou
+            -> Company Affairs
+    -> There should be the submit button that submits the forms
+
+-> In the Gallery Page 
+in the bottom with images embed youtube videos there
+
