@@ -1,0 +1,6 @@
+Continued:
+
+    -> Structured
+    -> Code Readability Enhance
+    -> Block & Sections
+    -> Short & Concised Comments
