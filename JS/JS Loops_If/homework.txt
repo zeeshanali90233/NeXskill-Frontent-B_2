@@ -1,5 +1,25 @@
-Make a age calculator
+1) Ask user the number of items he/she buyed
 
--> Ask Age from user
--> then tell him/her , how old is he/she
--> Must Use Conditional Statements
+then ask the name of that items one by one ,
+
+Manage a list of items
+
+Make a function to find an element from an array 
+this function takes the array as argument and the element to be searched
+this function should return the index of that element or return -1 if not found
+
+also console the each items in the list
+
+2) Ask user , age and also ask if he/she is overseas or not
+
+if it he/she is 30 above and overseas grant him/her the work permit
+else show an message "Not Eligible"
+
+Also make the Function for above 
+
+3) Ask user his /her favourite dish 
+and by using switch statement 
+
+if it is bread print "Yes it is my favourite also"
+if it is slice print "No is  favourite also"
+else make by your own 

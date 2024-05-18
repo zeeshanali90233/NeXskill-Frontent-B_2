@@ -1,0 +1,7 @@
+Array and it's function 
+
+Switch Statements 
+
+Logical Operators 
+
+Functions
