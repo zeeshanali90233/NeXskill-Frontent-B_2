@@ -8,89 +8,107 @@
   <body></body>
 
   <script>
-    // alert("This is alert");
-    // Alert
+    // Data Structure
+    // let items=
+    let items = [5, 6, 7, "Hello", true, 5, 3, 2, 3.5, 5, 6, 7];
+    items.push(5000);
+    items.push("5000");
+    items.push(5000);
+    items.push(false);
 
-    // alert("You are not a valid user");
-    // Conditional Statements
+    items.unshift("fff");
+    // console.log(items[0]);
 
-    // password = prompt("Enter your password");
-    // // isValidPassword = password == "ali";
-    // console.log(password == "ali");
+    // Check if exists
+    let isExists = items.includes(1117);
+    // Index of Particular Element in array if exists
+    // console.log(items);
+    // let findIndexOf = items.indexOf(5);
+    let findIndexOf = items.lastIndexOf(5);
+    // console.log(findIndexOf);
 
-    // if (password == "ali") {
-    //   console.log("This is if block");
-    //   console.log("Yes you have entered the correct password");
-    // } else {
-    //   console.log("This is else block");
-    //   console.log("Bad try , try next time");
-    // }
+    // Last Element Remove
+    items.pop();
+    items.shift();
+    // console.log(items);
 
-    // age = prompt("Enter your age");
+    let LengthOfMyList = items.length;
+    // console.log(LengthOfMyList);
+    items = items.reverse();
 
-    // if (age == 18) {
-    //   console.log("Yes you are 18");
-    // } else if (age == 17) {
-    //   console.log("You are 17");
-    // } else if (age == 16) {
-    //   console.log("You are 16");
-    // } else {
-    //   console.log("Your age is beyond limit and this is else block");
-    // }
+    // console.log(items.join(" =* "));
 
-    // age = prompt("Enter your age");
-
-    // if (age >= 18) {
-    //   console.log("You are over 18");
-    // } else {
-    //   console.log("You are under 18");
-    // }
-
-    // if (age == 18) {
-    //   console.log("You are over 18");
-    // } else if (age < 18) {
-    //   console.log("You are under 18");
-    // }
-
-    // Loops
-    // 100<=100
-    // 101
-    // for (let i=0; i <= 100; i = i + 1) {
-    //   console.log(i);
-    // }
-    // <  Less Than
-    // >  Greater than
-    // for (let i = 10; i <= 500; i = i + 50) {
-    //   console.log(i);
-    // }
-
-    // Reverse Loop
-
-    // for (let i = 1000; i >= 0; i = i - 2) {
-    //   console.log(i);
-    // }
-
-    i = 0;
-
-    while (i <= 500) {
-      console.log(i);
-      i = i + 2;
+    let elementToFind = 17775;
+    for (let i = 0; i <= items.length - 1; i++) {
+      if (items[i] === elementToFind) {
+        console.log("Yes Element Finded");
+      }
     }
 
-    // Let , Var, Const
+    // console.log(items.toString());
+    // console.log(typeof items.toString());
 
-    let parentName = "ddd";
-    // Hoisting
-    console.log(parentNameWithVar);
-    var parentNameWithVar;
+    // Switch
 
-    parentNameWithVar = 5;
-    const pi = 3.14;
+    let toCheckElement = 9;
 
-    pi = 4;
-    if (true) {
-      //   console.log(parent);
-      let parent = "Ali";
+    switch (toCheckElement) {
+      case 8:
+        console.log("Yes It is Eight");
+        break;
+      case 9:
+        console.log("Yes it is 9");
+        break;
+      case "Yes":
+        console.log("Yes There is yes");
+        break;
+      default:
+        console.log("Not FOuneded");
+        break;
     }
+
+    // if (toCheckElement == 8) {
+    //   console.log("Yes It is Eight");
+    // } else if (toCheckElement == 9) {
+    //   console.log("Yes It is 9");
+    // } else {
+    //   console.log("Not FOuneded");
+    // }
+
+    // Logical Operators
+
+    age = 25;
+    name = "Zeeshan Ali";
+
+    // && -> And
+    // || Or
+    // ! not
+
+    if ((age == 25 && name == "Zeeshanli") || age < 30) {
+      console.log("Yes you are zeeshan ali");
+    }
+
+    if (age == 25 || name == "Zeeshanli") {
+      console.log("Yes you are zeeshan ali With Or");
+    }
+
+    if (!(age > 50)) {
+      console.log("Yes haven't ");
+    }
+
+    // Functions
+    // Function Definition
+    function sayGreet() {
+      console.log("Hello Zeeshan ALi");
+    }
+
+    function addNumbers(a, b) {
+      let result = a * b;
+      return result;
+    }
+    // Function Call
+    sayGreet();
+    let result = addNumbers(5600, 100);
+    console.log(result);
   </script>
 </html>
