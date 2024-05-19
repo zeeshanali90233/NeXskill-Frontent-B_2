@@ -3,9 +3,4 @@
     - let, var, const and Diff
     - Conditional Statements
     - Loops, for, while
-    - Switch Statment 
     - alerts
-
-    Loops
-    -> for of -> array elements
-    -> for in -> keys/index
