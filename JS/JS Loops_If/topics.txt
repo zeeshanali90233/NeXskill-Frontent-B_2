@@ -1,7 +1,6 @@
-Array and it's function 
-
-Switch Statements 
-
-Logical Operators 
-
-Functions
+  -     Variables
+    - Types of Variables
+    - let, var, const and Diff
+    - Conditional Statements
+    - Loops, for, while
+    - alerts
