@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <input type="text" name="" id="" onchange="getValue(this); return false;" />
+    <div class="dd">ddd</div>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi eveniet
+    deserunt sit pariatur ipsum maxime explicabo. Sequi blanditiis, autem
+    voluptatum sit aliquid exercitationem deleniti corporis voluptates culpa
+    inventore explicabo recusandae.
+  </body>
+
+  <script>
+    function getValue(e) {
+      console.log((e.style.display = "none"));
+    }
+
+    window.onload = () => {
+      console.log("Dd");
+    };
+
+    window.oncopy = function dd() {
+      console.log("e");
+    };
+
+    c = document.createElement("p");
+    c.innerText = "4554";
+    d = document.querySelector(".dd");
+    console.log(d.appendChild(c));
+  </script>
+</html>

@@ -1,0 +1,17 @@
+document.body
+document.body.childNodes
+
+
+onClick from html side
+
+changing html style from js
+
+classList.add
+classList.remove
+classList.toggle
+
+eventListeners
+
+
+creating element and appending 
+
