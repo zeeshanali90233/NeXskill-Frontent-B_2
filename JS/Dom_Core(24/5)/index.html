@@ -5,32 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-
   <body>
-    <input type="text" name="" id="" onchange="getValue(this); return false;" />
-    <div class="dd">ddd</div>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi eveniet
-    deserunt sit pariatur ipsum maxime explicabo. Sequi blanditiis, autem
-    voluptatum sit aliquid exercitationem deleniti corporis voluptates culpa
-    inventore explicabo recusandae.
+    <button onclick="turnOnDarkTheme()">Dark Theme</button>
+    <button onclick="turnOnLightTheme()">Light Theme</button>
+    <button onclick="addItemsList()">Add Items List</button>
+
+    <div id="items"></div>
+
+    <div>
+      <div>
+        <label for="firstNumber">First Number</label>
+        <input
+          type="number"
+          name="firstNumber"
+          id="firstNumber"
+          placeholder="Enter First Number"
+        />
+      </div>
+      <div>
+        <label for="secondNumber">Second Number </label>
+        <input
+          type="number"
+          name="secondNumber"
+          id="secondNumber"
+          placeholder="Enter Second Number"
+        />
+      </div>
+
+      <button type="button" class="addBtn">Add</button>
+      <button class="divBtn">Divide</button>
+      <button class="mulBtn">Multiply</button>
+      <button class="subBtn">Substraction</button>
+    </div>
+
+    <div class="result"></div>
+
+    <div id="toggleTheme">Toggle Theme By Just Hovering</div>
   </body>
 
-  <script>
-    function getValue(e) {
-      console.log((e.style.display = "none"));
-    }
-
-    window.onload = () => {
-      console.log("Dd");
-    };
-
-    window.oncopy = function dd() {
-      console.log("e");
-    };
-
-    c = document.createElement("p");
-    c.innerText = "4554";
-    d = document.querySelector(".dd");
-    console.log(d.appendChild(c));
-  </script>
+  <script src="./index.js"></script>
 </html>
