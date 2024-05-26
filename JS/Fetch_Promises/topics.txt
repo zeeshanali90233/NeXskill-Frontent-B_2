@@ -1,16 +1,25 @@
 Promises 
 
+Error Handling
+
+Try Catch
+
+Concurrency -> Async Await 
+
+API 
+Fetching Methods
+Status Codes
+
 Fetch 
+
+Post API 
+
+Netlify , Site Live
 
 postId,postDescription
 
 Get : https://p2pclouds.up.railway.app/v1/learn/get_instagram_posts
 
-Post : https://p2pclouds.up.railway.app/v1/learn/post/save
-
-Delete : https://p2pclouds.up.railway.app/v1/learn/post/delete?postId=45
-
-Update : https://p2pclouds.up.railway.app/v1/learn/post/update
 
 
 
