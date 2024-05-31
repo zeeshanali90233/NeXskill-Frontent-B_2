@@ -1,0 +1,13 @@
+API Methods
+
+URL: https://p2pclouds.up.railway.app/v1/learn/tweet/save
+Method: POST
+Body: tweetImage,tweetDescription
+
+URL: https://p2pclouds.up.railway.app/v1/learn/tweet/update
+Method: PUT
+Body: tweetId,tweetImage,tweetDescription
+
+
+URL: https://p2pclouds.up.railway.app/v1/learn/tweet/delete?tweetId=<TWEET_ID>
+Method: DELETE

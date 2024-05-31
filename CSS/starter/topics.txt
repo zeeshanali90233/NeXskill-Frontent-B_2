@@ -1,0 +1,12 @@
+What is CSS?
+
+Ways to write the CSS?
+
+Inline CSS
+
+Targeting through Class
+
+Backgroud Color,
+Text Color
+Border
+...........Book
