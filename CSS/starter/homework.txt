@@ -1,0 +1,16 @@
+Form 
+
+Tweet Image ,
+Teweet Description
+
+Save Button
+
+On Click or Event Listener
+
+Save This through Post API
+
+URL: https://p2pclouds.up.railway.app/v1/learn/tweet/save
+Method: POST
+Body: tweetImage,tweetDescription
+
+Styling , Background Color, Text Color, Font Family, Weigth, Font Style
