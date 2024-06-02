@@ -1,0 +1,10 @@
+1)Jon Ducket HTML CSS Book Page No. 300
+Same as it is make it
+
+2) Make a contact form 
+when focus on input change the background color to color code #565656
+
+In the form add a terms conditons random, when hover on terms and conditions change the text color to #ff5656 also adjust the line height of terms and conditions section to 5rem 
+
+Add one sheet link there in form, when a user visit it change the color to brown
+
