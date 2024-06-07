@@ -1,0 +1,13 @@
+Box Model
+
+Marigns , Positions
+
+Positions
+
+-> Static
+-> Absolute -> outside the normal view
+-> Relative -> inside the normal view with top,bottom ....
+-> Fixed    -> outside the normal view, fix position ,
+-> Sticky   -> Untill it is in screen it behaves as Absolute , when to be scrolled to top or bottom it will stick to boundary(behave as fixed then)
+
+
