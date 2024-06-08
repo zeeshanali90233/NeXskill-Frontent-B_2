@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  width: 180px;
+  height: 180px;
+  /* Short Hand Properties */
+  padding: 20px 5px 5px 50px;
+  background-color: red;
+  box-sizing: border-box;
+  position: absolute;
+  /* top: 5px; */
+  /* right: 5px; */
+  /* bottom: 50%; */
+  top: 0px;
+  z-index: 2000;
+  /* right: 50%;
+  /* left: 100px; */
+  /* transform: scale(1.1) */
+}
+
+.box2 {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  z-index: 1000;
+  background-color: green;
+  box-sizing: border-box;
+  /* margin-top: 10px; */
+  margin-left: 10px;
+
+  /* border-left-width: 5px; */
+  /* border-color: red;
+  border-style: ridge; */
+  /* border-left-style: dashed;
+  border-left-color: red;
+  border-right-width: 5px; */
+  /* border-color: red;
+  border-style: ridge; */
+  /* border-right-style: solid;
+  border-right-color: red; */
+  /* border: Width Style Color */
+  border: 5px solid yellow;
+}
+
+.container {
+  background-color: blue;
+  height: 100vh;
+  /* padding-left: 50px; */
+  /* By Default */
+  /* display: block; */
+
+  /* display: flex; */
+  /* flex-direction: row-reverse; */
+  flex-wrap: wrap;
+  /* For Row Flex */
+  /* Horizontally Content Alignment */
+  /* justify-content: space-between; */
+  /* Vertically Content Alignment */
+  /* align-items: center; */
+
+  /* For Column Flex */
+  /* Vertically Content Alignment */
+  /* justify-content: space-between; */
+  /* Horizontally Content Alignment */
+  /* align-items: center; */
+}
+
+/* Position Model */

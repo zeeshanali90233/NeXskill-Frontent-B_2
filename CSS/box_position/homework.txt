@@ -1,0 +1,11 @@
+Make a navbar , that will stick to top whenever we 
+scroll to move out
+Add Ridge Border of 3 px , wheat color to navbar
+
+Make a floating Button , in the botton , rigth
+it must not move with the scroll
+
+Make two card boxes, with padding 10 px and margin right 
+of 20 , in order
+to give space from next right card
+
