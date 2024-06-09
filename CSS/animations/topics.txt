@@ -1,0 +1,13 @@
+
+
+
+ease -> start slow, middle fast, end slot Default
+ease-in -> start slow , then fast
+ease-out-> start fast then decelerates
+
+animation , from to, percentages
+hover transition
+
+
+body background color transition 
+name | duration | easing function | delay
