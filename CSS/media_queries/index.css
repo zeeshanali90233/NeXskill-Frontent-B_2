@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+
+.container .options {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+}
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: Green;
+  transition: all 0.5s ease;
+}
+
+/* Media Query */
+@media screen and (max-width: 500px) and (min-width: 1000px) {
+  .container .options {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .sidebar {
+    width: 500px;
+  }
+}
