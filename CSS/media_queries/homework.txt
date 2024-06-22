@@ -1,0 +1,11 @@
+Push All The Assignments and Homeworks on Github
+with 
+etc
+Assignment_1
+Assignment_2
+Homework_1 ... etc
+
+There should be Sidebar , Navbar
+On Small Screens The Sidebar Should Hide and Hamburger icon should be shown
+in Navbar 
+When Click on Hamburger ICON the Sidebar should show or hide in absolute position
